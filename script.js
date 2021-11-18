@@ -1,14 +1,3 @@
-var container = document.createElement("div");
-container.setAttribute("class", "container");
- 
-var heading = document.createElement("div");
-heading.setAttribute("class", "heading");
-
-/*user name include in text*/
-var userName = document.createElement("input");
-userName.setAttribute("class", "search-user");
-userName.setAttribute("type", "text");
-userName.setAttribute("placeholder", "Enter GitHub Username");
 
 var btn = document.getElementsByTagName("button");
 var userInput = document.getElementById("userid");
